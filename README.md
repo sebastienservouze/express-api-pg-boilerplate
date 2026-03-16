@@ -37,7 +37,7 @@ LOG_LEVEL=debug
 ```
 4. Set up the database:
 5. Update the `docker-compose.yml` file with the desired database name, user, and password.
-6Start the database: `docker-compose up -d`
+6. Start the database: `docker-compose up -d`
 7. Generate migrations: `npm run m:g src/db/migrations/<migration-name>`
 8. Run the migrations: `npm run m:r`
 9. Start the server: `npm run start`
